@@ -1,0 +1,21 @@
+<Window x:Class="Nexus.SettingsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        Title="Nexus 设置" Width="1180" Height="660"
+        Background="#FFFFFF" WindowStyle="None" AllowsTransparency="True">
+  <Grid Margin="48">
+    <StackPanel>
+      <TextBlock Text="设置" FontFamily="Inter" FontSize="36" Foreground="#16181D"/>
+      <TextBlock Text="在这里管理你的所有偏好" FontSize="13" Foreground="#5B616E" Margin="0,8,0,40"/>
+
+      <GroupBox Header="网络设置" Margin="0,0,0,32">
+        <StackPanel>
+          <TextBlock Text="代理地址" Foreground="#5B616E"/>
+          <TextBox Padding="12" BorderBrush="#E6E8EC"/>
+          <TextBlock Text="填写形如 http://host:port 的地址" FontSize="11" Foreground="#9AA0AA"/>
+        </StackPanel>
+      </GroupBox>
+
+      <TextBlock Text="© 2026 Nexus · 京ICP 备 12345678 号" FontSize="10" Foreground="#9AA0AA" Margin="0,56,0,0"/>`r`n      <Button Content="保存" Background="#7C3AED" Foreground="White" Height="44" Margin="0,40,0,0"/>
+    </StackPanel>
+  </Grid>
+</Window>
